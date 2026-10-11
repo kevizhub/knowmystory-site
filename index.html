@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KnowMyStory</title>
+<meta name="description" content="KnowMyStory: play a place before you go. Support and privacy for the iOS app.">
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Shantell+Sans:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #efe6d6; --text: #1c2340; --muted: #4a5068; --accent: #2b6436; --card: #f7f1e6; --line: #d6c9b2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1e2621; --text: #f1ebdd; --muted: #c4bfb2; --accent: #8fd19a; --card: #26302a; --line: #3a463e; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: var(--bg); color: var(--text); font: 400 1.0625rem/1.65 "Literata", Georgia, serif; }
+  main { flex: 1; width: 100%; max-width: 36rem; margin: 0 auto; padding: 4rem 16px 2rem; }
+  h1 { font: 700 clamp(2.2rem, 8vw, 3.2rem)/1.1 "Shantell Sans", system-ui, sans-serif; margin: 0 0 .5rem; color: var(--accent); }
+  .lede { font-size: 1.2rem; margin: 0 0 2rem; }
+  ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .75rem; }
+  a.card { display: block; min-height: 44px; padding: 1rem 1.25rem; background: var(--card); border: 1px solid var(--line); border-radius: 12px; color: var(--text); text-decoration: none; }
+  a.card strong { font-family: "Shantell Sans", system-ui, sans-serif; color: var(--accent); font-size: 1.15rem; }
+  a.card span { display: block; color: var(--muted); }
+  a.card:hover { border-color: var(--accent); }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  footer { max-width: 36rem; width: 100%; margin: 0 auto; padding: 1.25rem 16px 2.5rem; color: var(--muted); font-size: .95rem; }
+</style>
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+<body>
+<main>
+  <h1>KnowMyStory</h1>
+  <p class="lede">Play a place before you go. Short, true stories of real places, people and brands, for iPhone and iPad.</p>
+  <ul>
+    <li><a class="card" href="support/"><strong>Support</strong><span>How stamps work, offline play, and how to reach us.</span></a></li>
+    <li><a class="card" href="privacy/"><strong>Privacy policy</strong><span>No accounts, no tracking. Your passport stays on your device.</span></a></li>
+  </ul>
+</main>
+<footer>
+  <p>&copy; 2026 Keviz Design and Consultancy LLP &middot; <a href="mailto:contact@keviz.in" style="color:inherit">contact@keviz.in</a></p>
+</footer>
+</body>
+</html>

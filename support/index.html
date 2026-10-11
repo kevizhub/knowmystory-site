@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KnowMyStory support</title>
+<meta name="description" content="Help for the KnowMyStory iOS app: how stamps work, offline play, resetting progress, photo credits and how to reach us.">
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Shantell+Sans:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #efe6d6; --text: #1c2340; --muted: #4a5068; --accent: #2b6436; --card: #f7f1e6; --line: #d6c9b2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1e2621; --text: #f1ebdd; --muted: #c4bfb2; --accent: #8fd19a; --card: #26302a; --line: #3a463e; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 400 1.0625rem/1.65 "Literata", Georgia, serif; }
+  .skip { position: absolute; left: -9999px; }
+  .skip:focus { left: 16px; top: 16px; background: var(--accent); color: var(--bg); padding: .5rem 1rem; border-radius: 999px; z-index: 1; }
+  header, main, footer { max-width: 42rem; margin: 0 auto; padding: 0 16px; }
+  header { padding-top: 2rem; }
+  .brand { font: 700 1.125rem "Shantell Sans", system-ui, sans-serif; color: var(--accent); text-decoration: none; }
+  h1, h2 { font-family: "Shantell Sans", system-ui, sans-serif; line-height: 1.2; text-wrap: balance; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); margin: 1.25rem 0 .5rem; }
+  h2 { font-size: 1.3rem; margin: 2.25rem 0 .75rem; }
+  .lede { font-size: 1.125rem; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+  details { background: var(--card); border: 1px solid var(--line); border-radius: 12px; margin: .75rem 0; }
+  summary { cursor: pointer; padding: .9rem 1.1rem; min-height: 44px; font-weight: 600; list-style-position: outside; margin-left: 1rem; }
+  details > div { padding: 0 1.1rem 1rem; }
+  details > div p { margin: .5rem 0 0; }
+  .contact { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 12px; padding: 1rem 1.25rem; }
+  .contact p { margin: 0; }
+  .contact p + p { margin-top: .5rem; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; padding-bottom: 2.5rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .95rem; }
+  footer nav a { margin-right: 1rem; }
+</style>
+  <link rel="icon" href="../favicon.ico">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<header>
+  <a class="brand" href="../">KnowMyStory</a>
+</header>
+<main id="content">
+  <h1>Support</h1>
+  <p class="lede">KnowMyStory lets you play the story of a real place before you go. Each story takes about 7 minutes: explore it in 3D, make a choice, play a quick game, see the place today, then earn a stamp for your Story Passport.</p>
+
+  <h2>Questions people ask</h2>
+
+  <details>
+    <summary>How do stamps work?</summary>
+    <div>
+      <p>Every story ends with a memory quest: a few quick questions about what you just played. Finish it and you earn that story's stamp, plus points for what you discovered along the way. Open your Story Passport from the home screen to see every stamp you've collected.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Do I need an account or an internet connection?</summary>
+    <div>
+      <p>No account, ever. And no connection: the stories, art and fonts come inside the app, so you can play on a plane or anywhere without signal. You only need to be online to open a source link, which opens in your browser.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>How do I reset my progress?</summary>
+    <div>
+      <p>Your passport is saved only on your device, so there's no account to reset. To start fresh, delete the app and install it again. That clears every stamp and point.</p>
+      <p>Heads up: this also means stamps don't move to a new phone or iPad.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Where do the photos come from?</summary>
+    <div>
+      <p>The real photos are freely licensed or public domain images, mostly from Wikimedia Commons. Each one shows its author and licence right where it appears in the story.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Are the stories true?</summary>
+    <div>
+      <p>The places, dates, numbers and real people are, and every story lists its sources on its "place today" screen. Some characters, like the kid you play, are made up to walk you through it.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>I spotted a fact that looks wrong. What do I do?</summary>
+    <div>
+      <p>Tell us. Email <a href="mailto:contact@keviz.in?subject=Fact%20check">contact@keviz.in</a> with the story name, the line you mean, and a source if you have one. We check every report and fix it in the next version.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Can you make a story about my city?</summary>
+    <div>
+      <p>We'd love to hear it. Email <a href="mailto:contact@keviz.in?subject=Story%20request">contact@keviz.in</a> with the place, person or brand, and the one detail that made you want to know more.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Which devices does it run on?</summary>
+    <div>
+      <p>iPhone and iPad.</p>
+    </div>
+  </details>
+
+  <h2>Contact us</h2>
+  <div class="contact">
+    <p>Email <a href="mailto:contact@keviz.in">contact@keviz.in</a> and tell us your device and iOS version if something isn't working.</p>
+    <p>KnowMyStory is published by Keviz Design and Consultancy LLP.</p>
+  </div>
+</main>
+<footer>
+  <nav aria-label="Site">
+    <a href="../">Home</a>
+    <a href="../privacy/">Privacy policy</a>
+  </nav>
+  <p>&copy; 2026 Keviz Design and Consultancy LLP</p>
+</footer>
+</body>
+</html>
